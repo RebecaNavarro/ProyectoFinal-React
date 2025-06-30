@@ -41,7 +41,6 @@ export default function CountdownTimer({
                 if (prev <= 1) {
                     clearInterval(timer);
                     //TODO textos i18n
-                    console.log("Updating product status to past for id:", id);
                     updateProduct(
                         {
                             id,
@@ -54,11 +53,7 @@ export default function CountdownTimer({
                         } as Product
                     )
                         .then(() => {
-                            console.log("Status updated successfully");
                             onStatusChange("past");
-                        })
-                        .catch(error => {
-                            console.error("Error details:", error.response?.data || error.message);
                         });
                     return 0;
                 }

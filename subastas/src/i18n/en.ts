@@ -42,9 +42,11 @@ export const enJSON = {
         "editProduct": "Edit Product",
         "deleteProduct": "Delete Product",
         "confirmDelete": "Are you sure you want to delete this product?",
-        "name": "Name",
-        "price": "Price",
-        "duration": "Duration",
+        "name": "Name of Product",
+        "description": "Description of Product",
+        "price": "Price of Product",
+        "duration": "Duration of Product",
+        "status": "Status of Product",
         "actions": "Actions"
     },
     "registerUser": {

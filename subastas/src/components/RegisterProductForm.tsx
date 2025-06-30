@@ -63,7 +63,7 @@ export const RegisterProduct = ({ open, onClose }: RegisterUsersProps) => {
             variant="h6"
             sx={{ textAlign: "center", marginBottom: 2, fontWeight: "bold" }}
           >
-            Registro de Votantes
+            {t("registerProduct.title")}
           </Typography>
 
           <form onSubmit={formik.handleSubmit}>

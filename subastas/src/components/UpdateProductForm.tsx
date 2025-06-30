@@ -65,7 +65,7 @@ export const UpdateProduct = ({ open, onClose, editProduct, productId }: UpdateP
             variant="h6"
             sx={{ textAlign: "center", marginBottom: 2, fontWeight: "bold" }}
           >
-            Actualizar Candidato
+            {t("registerProduct.update")}
           </Typography>
 
           <form onSubmit={formik.handleSubmit}>

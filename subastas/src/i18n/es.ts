@@ -42,9 +42,11 @@ export const esJSON = {
         "editProduct": "Editar Producto",
         "deleteProduct": "Eliminar Producto",
         "confirmDelete": "¿Estás seguro de que deseas eliminar este producto?",
-        "name": "Nombre",
-        "price": "Precio",
-        "duration": "Duración",
+        "name": "Nombre del Producto",
+        "description": "Descripción del Producto",
+        "price": "Precio del Producto",
+        "duration": "Duración del Producto",
+        "status": "Estado del Producto",
         "actions": "Acciones"
     },
     "registerUser": {

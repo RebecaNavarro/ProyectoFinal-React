@@ -31,31 +31,31 @@ interface ProductListProps {
 const columns: Column[] = [
   {
     id: "title",
-    label: t("registerProduct.title"),
+    label: t("productsManagement.name"),
     minWidth: 120,
     align: "left"
   },
   {
     id: "description",
-    label: t("registerProduct.description"),
+    label: t("productsManagement.description"),
     minWidth: 200,
     align: "left"
   },
   {
     id: "price",
-    label: t("registerProduct.price"),
+    label: t("productsManagement.price"),
     minWidth: 100,
     align: "left"
   },
   {
     id: "duration",
-    label: t("registerProduct.duration"),
+    label: t("productsManagement.duration"),
     minWidth: 100,
     align: "left"
   },
   {
     id: "status",
-    label: t("registerProduct.status"),
+    label: t("productsManagement.status"),
     minWidth: 100,
     align: "left"
   },

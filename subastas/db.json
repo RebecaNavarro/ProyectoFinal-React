@@ -22,8 +22,8 @@
       "description": "Descripción del producto 1",
       "image": "https://picsum.photos/200/300",
       "price": 100,
-      "duration": 6,
-      "status": "past"
+      "duration": 10,
+      "status": "active"
     },
     {
       "id": "2",
@@ -41,6 +41,33 @@
       "image": "https://picsum.photos/200/300",
       "price": 150,
       "duration": 90,
+      "status": "upcoming"
+    },
+    {
+      "id": "4",
+      "title": "Producto 4",
+      "description": "Descripción del producto 4",
+      "image": "https://picsum.photos/200/300",
+      "price": 250,
+      "duration": 60,
+      "status": "active"
+    },
+    {
+      "id": "5",
+      "title": "Producto 5",
+      "description": "Descripción del producto 5",
+      "image": "https://picsum.photos/200/300",
+      "price": 300,
+      "duration": 30,
+      "status": "past"
+    },
+    {
+      "id": "6",
+      "title": "Producto 6",
+      "description": "Descripción del producto 6",
+      "image": "https://picsum.photos/200/300",
+      "price": 400,
+      "duration": 15,
       "status": "upcoming"
     }
   ]

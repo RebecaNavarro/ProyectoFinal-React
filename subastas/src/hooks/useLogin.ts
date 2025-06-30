@@ -18,8 +18,8 @@ export const useLogin = () => {
 
   const formik = useFormik({
     initialValues: {
-      name: "beca",
-      password: "123456",
+      name: "",
+      password: "",
     },
     validationSchema: Yup.object({
       name: Yup.string()
