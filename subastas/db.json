@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "beca",
+      "email": "beca@gmail.com",
+      "password": "123456",
+      "token": "abc123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "vale",
+      "password": "123456",
+      "token": "def456",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Producto 1",
+      "description": "Descripción del producto 1",
+      "image": "https://picsum.photos/200/300",
+      "price": 100,
+      "duration": 6,
+      "status": "past"
+    },
+    {
+      "id": "2",
+      "title": "Producto 2",
+      "description": "Descripción del producto 2",
+      "image": "https://picsum.photos/200/300",
+      "price": 200,
+      "duration": 120,
+      "status": "past"
+    },
+    {
+      "id": "3",
+      "title": "Producto 3",
+      "description": "Descripción del producto 3",
+      "image": "https://picsum.photos/200/300",
+      "price": 150,
+      "duration": 90,
+      "status": "upcoming"
+    }
+  ]
+}
