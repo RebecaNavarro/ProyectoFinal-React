@@ -3,12 +3,18 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { getUser } from "../services/Auth";
 import { useAuth } from "../context/AuthContext";
+import { useAuthStore } from "../store/authStore";
 
 export const useLogin = () => {
 
- const { login } = useAuth();
+  const { login } = useAuth();
+  const { setUser, setToken, setIsAdmin, setIsAuth } = useAuthStore((state) => state);
 
- const navigate = useNavigate();
+  const navigate = useNavigate();
+
+  const goToAuctions = () => {
+    navigate("/Auctions");
+  };
 
   const formik = useFormik({
     initialValues: {
@@ -29,22 +35,27 @@ export const useLogin = () => {
       try {
         const user = await getUser(values.name);
         if (user && user.password === values.password) {
-          login(user);
-            navigate("/Auctions");
-          
+          setUser(user);
+          setToken(user.token);
+          setIsAuth(true);
+          login(user.token);
+          if (user.role === "admin") {
+            setIsAdmin(true);
+          }
+          goToAuctions();
         }
         else {
           console.error("Credenciales incorrectas");
         }
       } catch (error) {
         console.error("Error al buscar el usuario:", error);
-        
+
       }
     },
   });
 
   return {
     formik,
-    
+
   };
 };
