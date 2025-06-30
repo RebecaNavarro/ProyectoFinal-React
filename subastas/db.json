@@ -3,7 +3,6 @@
     {
       "id": "1",
       "name": "beca",
-      "email": "beca@gmail.com",
       "password": "123456",
       "token": "abc123",
       "role": "admin"
