@@ -101,4 +101,4 @@ Para usuario:
 - Nombre: vale
 - Contraseña: 123456
   Por su parte el usuario sólo podrá ver la página de Subastas.
-  ![image](https://github.com/user-attachments/assets/fee73d51-7aa9-48d7-a3a5-f48d6a7d8da7)
+![image](https://github.com/user-attachments/assets/fee73d51-7aa9-48d7-a3a5-f48d6a7d8da7)
