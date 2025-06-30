@@ -95,10 +95,12 @@ Para administrador:
 - Nombre: beca
 - Contraseña: 123456
   El administrador tendrá la posibilidad de ver las páginas de Subastas, donde se llevarán a cabo las subastas; y Gestión de Usuarios y Gestión de Productos.
+  
 ![image](https://github.com/user-attachments/assets/551f36b7-f771-40d0-ac68-bcc6984dec0f)
 
 Para usuario:
 - Nombre: vale
 - Contraseña: 123456
   Por su parte el usuario sólo podrá ver la página de Subastas.
+
 ![image](https://github.com/user-attachments/assets/fee73d51-7aa9-48d7-a3a5-f48d6a7d8da7)
