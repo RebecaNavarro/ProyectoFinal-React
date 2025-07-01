@@ -4,7 +4,6 @@ import { useFormik } from "formik";
 import { t } from "i18next";
 import type { Bid } from "../interfaces/bidInterface";
 import { getBidsServicebyProductId, postBidService } from "../services/BidsService";
-import { AddModerator } from "@mui/icons-material";
 
 export const useBid = (price: number, productId: string, onClose: () => void) => {
   const bidSchema = Yup.object({

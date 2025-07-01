@@ -34,16 +34,6 @@ interface ProductModalProps {
   isSubmitting: boolean;
 }
 
-const PriceChip = styled(Chip)(({ theme }) => ({
-  backgroundColor: theme.palette.success.light,
-  color: theme.palette.success.contrastText,
-  fontWeight: 'bold',
-  fontSize: '1.1rem',
-  padding: theme.spacing(1),
-  margin: theme.spacing(1, 0)
-}));
-
-
 const ImageContainer = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(2),
   borderRadius: theme.shape.borderRadius,
