@@ -24,7 +24,13 @@ export const esJSON = {
         "pastAuctions": "Subastas Pasadas",
         "noActive": "No hay subastas activas en este momento.",
         "noUpcoming": "No hay subastas próximas en este momento.",
-        "noPast": "No hay subastas pasadas en este momento."
+        "noPast": "No hay subastas pasadas en este momento.",
+        "enterBid": "Ingrese su puja",
+        "bid": "Pujar",
+        "minBid": "La puja mínima debe ser mayor que el precio actual",
+        "maxBid": "La puja máxima debe ser menor que 1,000,000 Bs",
+        "noBids": "Aún no hay pujas",
+        "bidHistory": "Historial de Pujas",
     },
     "userManagement": {
         "title": "Gestión de Usuarios",

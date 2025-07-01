@@ -7,7 +7,7 @@ import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from "@mui/material";
-import PersonRemoveIcon from '@mui/icons-material/PersonRemove';
+import RemoveShoppingCartIcon from '@mui/icons-material/RemoveShoppingCart';
 import { ModeEdit } from '@mui/icons-material';
 import { t } from "i18next";
 import type { Product } from "../interfaces/productInterface";
@@ -28,45 +28,6 @@ interface ProductListProps {
   editProduct: (product: Product) => void;
 }
 
-const columns: Column[] = [
-  {
-    id: "title",
-    label: t("productsManagement.name"),
-    minWidth: 120,
-    align: "left"
-  },
-  {
-    id: "description",
-    label: t("productsManagement.description"),
-    minWidth: 200,
-    align: "left"
-  },
-  {
-    id: "price",
-    label: t("productsManagement.price"),
-    minWidth: 100,
-    align: "left"
-  },
-  {
-    id: "duration",
-    label: t("productsManagement.duration"),
-    minWidth: 100,
-    align: "left"
-  },
-  {
-    id: "status",
-    label: t("productsManagement.status"),
-    minWidth: 100,
-    align: "left"
-  },
-  {
-    id: "actions",
-    label: t("productsManagement.actions"),
-    minWidth: 100,
-    align: "left"
-  }
-];
-
 export default function ProductsList({ products, deleteProduct, editProduct }: ProductListProps) {
   const {
     open,
@@ -82,6 +43,46 @@ export default function ProductsList({ products, deleteProduct, editProduct }: P
     handleCloseDialog,
     handleCloseUpdateDialog
   } = useProductList();
+
+  const columns: Column[] = [
+    {
+      id: "title",
+      label: t("productsManagement.name"),
+      minWidth: 120,
+      align: "left"
+    },
+    {
+      id: "description",
+      label: t("productsManagement.description"),
+      minWidth: 200,
+      align: "left"
+    },
+    {
+      id: "price",
+      label: t("productsManagement.price"),
+      minWidth: 100,
+      align: "left"
+    },
+    {
+      id: "duration",
+      label: t("productsManagement.duration"),
+      minWidth: 100,
+      align: "left"
+    },
+    {
+      id: "status",
+      label: t("productsManagement.status"),
+      minWidth: 100,
+      align: "left"
+    },
+    {
+      id: "actions",
+      label: t("productsManagement.actions"),
+      minWidth: 100,
+      align: "left"
+    }
+  ];
+
 
   return (
     <>
@@ -129,7 +130,7 @@ export default function ProductsList({ products, deleteProduct, editProduct }: P
                         handleOpenDialog(product);
                         event.stopPropagation();
                       }}>
-                        <PersonRemoveIcon />
+                        <RemoveShoppingCartIcon />
                       </Button>
                     </TableCell>
                   </TableRow>

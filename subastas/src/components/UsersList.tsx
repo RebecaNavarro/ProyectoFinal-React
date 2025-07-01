@@ -28,27 +28,6 @@ interface UsersListProps {
   editUser: (user: User) => void;
 }
 
-const columns: Column[] = [
-  {
-    id: "nombre",
-    label: t("userManagement.name"),
-    minWidth: 120,
-    align: "left"
-  },
-  {
-    id: "rol",
-    label: t("userManagement.role"),
-    minWidth: 100,
-    align: "left",
-  },
-  {
-    id: "actions",
-    label: t("userManagement.actions"),
-    minWidth: 100,
-    align: "left",
-  }
-];
-
 export default function UsersList({ users, deleteUser, editUser }: UsersListProps) {
   const {
     open,
@@ -64,6 +43,28 @@ export default function UsersList({ users, deleteUser, editUser }: UsersListProp
     handleCloseDialog,
     handleCloseUpdateDialog
   } = useUserList();
+
+  const columns: Column[] = [
+    {
+      id: "nombre",
+      label: t("userManagement.name"),
+      minWidth: 120,
+      align: "left"
+    },
+    {
+      id: "rol",
+      label: t("userManagement.role"),
+      minWidth: 100,
+      align: "left",
+    },
+    {
+      id: "actions",
+      label: t("userManagement.actions"),
+      minWidth: 100,
+      align: "left",
+    }
+  ];
+
 
   return (
     <>

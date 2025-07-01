@@ -11,7 +11,7 @@ export const enJSON = {
         "password": "Password",
         "button": "Login",
         "error": {
-        "invalidCredentials": "Invalid username or password"
+            "invalidCredentials": "Invalid username or password"
         }
     },
     "products": {
@@ -24,7 +24,13 @@ export const enJSON = {
         "pastAuctions": "Past Auctions",
         "noActive": "No active auctions at the moment.",
         "noUpcoming": "No upcoming auctions at the moment.",
-        "noPast": "No past auctions at the moment."
+        "noPast": "No past auctions at the moment.",
+        "enterBid": "Enter your bid",
+        "bid": "Bid",
+        "minBid": "Minimum bid must be greater than the current price",
+        "maxBid": "Maximum bid must be less than 1,000,000 Bs",
+        "noBids": "No bids yet",
+        "bidHistory": "Bid History",
     },
     "userManagement": {
         "title": "User Management",
@@ -35,7 +41,7 @@ export const enJSON = {
         "name": "Name",
         "role": "Role",
         "actions": "Actions"
-    }, 
+    },
     "productsManagement": {
         "title": "Products Management",
         "addProduct": "Add Product",
@@ -63,11 +69,6 @@ export const enJSON = {
         "cancel": "Cancel",
         "success": "User registered successfully!",
         "error_in_register": "Error registering user: ",
-        "error": {
-            "nameRequired": "Name is required",
-            "roleRequired": "Role is required",
-            "passwordRequired": "Password is required"
-        },
         "name_required": "Name is required",
         "role_required": "Role is required",
         "password_required": "Password is required",

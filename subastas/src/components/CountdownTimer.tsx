@@ -40,7 +40,6 @@ export default function CountdownTimer({
             setTimeLeft((prev) => {
                 if (prev <= 1) {
                     clearInterval(timer);
-                    //TODO textos i18n
                     updateProduct(
                         {
                             id,
