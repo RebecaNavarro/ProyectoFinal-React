@@ -1,0 +1,163 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "beca",
+      "password": "123456",
+      "token": "abc123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "vale",
+      "password": "123456",
+      "token": "def456",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Producto 1",
+      "description": "Descripción del producto 1",
+      "image": "https://picsum.photos/200/300",
+      "price": 100,
+      "duration": 10,
+      "status": "past"
+    },
+    {
+      "id": "2",
+      "title": "Producto 2",
+      "description": "Descripción del producto 2",
+      "image": "https://picsum.photos/200/300",
+      "price": 200,
+      "duration": 120,
+      "status": "past"
+    },
+    {
+      "id": "3",
+      "title": "Producto 3",
+      "description": "Descripción del producto 3 esdfcgvhbjnzsxdf cgvhxrdcfvgbzesxrdcfvgzesxdcfv gezsxrdtcfeszrxdtcfyvg trxdhctgfbhj,ydrtfuvygjj",
+      "image": "https://picsum.photos/200/300",
+      "price": 150,
+      "duration": 90,
+      "status": "upcoming"
+    },
+    {
+      "id": "4",
+      "title": "Producto 4",
+      "description": "Descripción del producto 4",
+      "image": "https://picsum.photos/200/300",
+      "price": 250,
+      "duration": 60,
+      "status": "past"
+    },
+    {
+      "id": "5",
+      "title": "Producto 5",
+      "description": "Descripción del producto 5",
+      "image": "https://picsum.photos/200/300",
+      "price": 300,
+      "duration": 30,
+      "status": "past"
+    },
+    {
+      "id": "6",
+      "title": "Producto 6",
+      "description": "Descripción del producto 6",
+      "image": "https://picsum.photos/200/300",
+      "price": 400,
+      "duration": 15,
+      "status": "upcoming"
+    },
+    {
+      "id": "59ad",
+      "title": "Hooa",
+      "description": "rdyfhgjydtfhgj",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fletsenhance.io%2F&psig=AOvVaw3mPKzVPfryu0vvKIe_AnlZ&ust=1751329268339000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNCq5Ijwl44DFQAAAAAdAAAAABAE",
+      "price": "10",
+      "duration": "10",
+      "status": "past"
+    },
+    {
+      "id": "6247",
+      "title": "tcfyv",
+      "description": "xdxtcfghjfyhvgjbh",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fletsenhance.io%2F&psig=AOvVaw3mPKzVPfryu0vvKIe_AnlZ&ust=1751329268339000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNCq5Ijwl44DFQAAAAAdAAAAABAE",
+      "price": "10",
+      "duration": "10",
+      "status": "past"
+    },
+    {
+      "id": "1853",
+      "title": "Producto prueba",
+      "description": "Prueba de una descr trdytuj",
+      "image": "https://picsum.photos/200/300",
+      "price": "190",
+      "duration": "30",
+      "status": "past"
+    }
+  ],
+  "bids": [
+    {
+      "id": "b6d3",
+      "bid": 900,
+      "productId": "3"
+    },
+    {
+      "id": "6587",
+      "bid": 151,
+      "productId": "3"
+    },
+    {
+      "id": "021f",
+      "bid": 151,
+      "productId": "3"
+    },
+    {
+      "id": "fabe",
+      "bid": 401,
+      "productId": "6"
+    },
+    {
+      "id": "f51e",
+      "bid": 401,
+      "productId": "6"
+    },
+    {
+      "id": "50c2",
+      "bid": 152,
+      "productId": "3"
+    },
+    {
+      "id": "7bf2",
+      "bid": 153,
+      "productId": "3"
+    },
+    {
+      "id": "3cd5",
+      "bid": 151,
+      "productId": "3"
+    },
+    {
+      "id": "462e",
+      "bid": 152,
+      "productId": "3"
+    },
+    {
+      "id": "0264",
+      "bid": 151,
+      "productId": "3"
+    },
+    {
+      "id": "3392",
+      "bid": 151,
+      "productId": "3"
+    },
+    {
+      "id": "1242",
+      "bid": 151,
+      "productId": "3"
+    }
+  ]
+}
